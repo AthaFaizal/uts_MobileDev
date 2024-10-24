@@ -12,20 +12,15 @@ class _LoginSuksesState extends State<LoginSukses> with SingleTickerProviderStat
   @override
   void initState() {
     super.initState();
-
-    // Initialize the animation controller
     _controller = AnimationController(
       duration: const Duration(milliseconds: 800),
       vsync: this,
     );
 
-    // Initialize the scale animation
     _animation = CurvedAnimation(parent: _controller, curve: Curves.easeOutBack);
 
-    // Start the animation
     _controller.forward();
 
-    // Navigate to the profile page after 2 seconds
     Future.delayed(Duration(seconds: 2), () {
       Navigator.pushNamed(context, '/profile');
     });
@@ -42,7 +37,6 @@ class _LoginSuksesState extends State<LoginSukses> with SingleTickerProviderStat
     return Scaffold(
       body: Stack(
         children: [
-          // Background with gradient colors
           Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(
@@ -67,7 +61,6 @@ class _LoginSuksesState extends State<LoginSukses> with SingleTickerProviderStat
                   mainAxisSize: MainAxisSize.min,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    // Emote (could be an icon or image)
                     Text(
                       "🎉", // Emote
                       style: TextStyle(fontSize: 60),
