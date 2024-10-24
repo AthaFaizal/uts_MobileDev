@@ -1,16 +1,26 @@
-# utsmobile_flutter
+# UTS MOBILE DEVELOPMENT
 
-A new Flutter project.
+TAMPILAN LOGIN
 
-## Getting Started
+MEMASUKAN EMAIL DAN PASSWORD
 
-This project is a starting point for a Flutter application.
+![image](https://github.com/user-attachments/assets/9e6135b9-a249-4848-b2cd-10e306a5ea43)
 
-A few resources to get you started if this is your first Flutter project:
+TAMPILAN PENDAFTARAN ATAU REGISTER
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+MENGISI NAMA , EMAIL DAN PASSWORD
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/user-attachments/assets/28abc64b-a23a-4b94-a749-a3901daef9ad)
+
+TAMPILAN KETIKA SUDAH BERHASIL DAFTAR
+
+![image](https://github.com/user-attachments/assets/12b3ff67-d82f-48b9-947d-f5a94587e2e6)
+
+TAMPILAN KETIKA SUDAH LOGIN
+
+![image](https://github.com/user-attachments/assets/05f62073-a9d2-4019-ba2f-285837843b62)
+
+TAMPILAN HALAMAN PROFILE
+
+![image](https://github.com/user-attachments/assets/64749c60-1121-42a6-9d8a-233c808fc600)
+
