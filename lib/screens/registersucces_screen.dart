@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 class RegisterSukses extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // Navigate back to the main page after 2 seconds
     Future.delayed(Duration(seconds: 2), () {
       Navigator.pushNamed(context, '/');
     });
@@ -11,7 +10,6 @@ class RegisterSukses extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          // Background gradient with blue colors
           Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(
@@ -36,11 +34,10 @@ class RegisterSukses extends StatelessWidget {
                 children: [
                   // Emote jempol
                   Text(
-                    "👍", // Emote jempol
+                    "👍",
                     style: TextStyle(fontSize: 60),
                   ),
                   SizedBox(height: 10),
-                  // Success message
                   Text(
                     '"Pendaftaran Berhasil"',
                     style: TextStyle(
