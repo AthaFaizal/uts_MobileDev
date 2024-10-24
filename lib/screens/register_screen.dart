@@ -12,7 +12,6 @@ class RegisterPage extends StatelessWidget {
       ),
       body: Stack(
         children: [
-          // Background image
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
@@ -21,7 +20,6 @@ class RegisterPage extends StatelessWidget {
               ),
             ),
           ),
-          // Overlay gradient
           Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(
