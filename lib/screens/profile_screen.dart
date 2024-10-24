@@ -13,7 +13,6 @@ class ProfilePage extends StatelessWidget {
       extendBodyBehindAppBar: true, // Make body extend behind AppBar for seamless background
       body: Stack(
         children: [
-          // Background image or color gradient
           Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(
@@ -30,7 +29,6 @@ class ProfilePage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  // CircleAvatar with border and shadow
                   CircleAvatar(
                     radius: 70,
                     backgroundImage: AssetImage('assets/profile.png'),
@@ -50,7 +48,6 @@ class ProfilePage extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 20),
-                  // User info wrapped in a Card for modern design
                   Card(
                     elevation: 8,
                     shape: RoundedRectangleBorder(
@@ -86,7 +83,6 @@ class ProfilePage extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 40),
-                  // Elevated button with hover effect and modern style
                   ElevatedButton(
                     onPressed: () {
                       exit(0);
